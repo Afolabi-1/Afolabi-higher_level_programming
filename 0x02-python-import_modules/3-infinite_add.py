@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 # 3-infinite_add.py
 
