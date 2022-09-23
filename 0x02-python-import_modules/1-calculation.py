@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# calculator_1.py
+# 1-calculation.py
 
 if __name__ == "__main__":
     from calculator_1 import add, sub, mul, div
