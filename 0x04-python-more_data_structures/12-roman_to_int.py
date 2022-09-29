@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-# 12-roman_to_int.py
 
 
 def roman_to_int(roman_string):
     """Convert roman numeral to int."""
-    if roman_string != str(roman_string):
+    if roman_string != str(roman_string)
         return (0)
     if roman_string is None:
         return (0)
@@ -19,14 +18,15 @@ def roman_to_int(roman_string):
         "M": 1000
     }
     num = 0
-    r_dict = roman_dict
 
     for j in range(len(roman_string)):
-        if r_dict.get(roman_string[j], 0) == 0:
+        if roman_dict.get(roman_string[j], 0) == 0:
             return (0)
 
-        if (j != (len(roman_string) - 1) and r_dict[roman_string[j]] < r_dict[roman_string[j + 1]]):
-                num += r_dict[roman_string[j]] * -1
+        if (j != (len(roman_string) - 1) and
+                roman_dict[roman_string[j]] < roman_dict[roman_string[j + 1]]):
+                num += roman_dict[roman_string[j]] * -1
+
         else:
-            num += r_dict[roman_string[j]]
+            num += roman_dict[roman_string[j]]
     return (num)
