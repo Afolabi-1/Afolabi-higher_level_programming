@@ -3,6 +3,7 @@
 """Defines class BaseGeometry.
 """
 
+
 class BaseGeometry:
     """Rep base geometry.
     """
