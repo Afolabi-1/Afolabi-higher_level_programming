@@ -1,1 +1,1 @@
-This Repository is for Python course on alx
+This Repository is for Python and javascript course on alx
